@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/rack-vendor_accept_header.svg)](https://badge.fury.io/rb/rack-vendor_accept_header)
+
 # Rack::VendorAcceptHeader
 
 Welcome to the `rack-vendor_accept_header` gem. It provides
