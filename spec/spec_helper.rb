@@ -1,5 +1,8 @@
+require 'simplecov'
 require 'coveralls'
-Coveralls.wear!
+
+SimpleCov.formatter = Coveralls::SimpleCov::Formatter
+SimpleCov.start
 
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'rack/vendor_accept_header'
