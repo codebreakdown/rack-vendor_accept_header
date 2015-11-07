@@ -2,6 +2,10 @@ require "rack/vendor_accept_header/version"
 require "rack"
 
 module Rack
+  ##
+  # This class is Rack middleware that handles parsing vendor HTTP
+  # Accept headers
+
   class VendorAcceptHeader
     def initialize(app, options = {})
       @app = app

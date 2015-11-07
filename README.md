@@ -1,6 +1,7 @@
 [![Gem Version](https://badge.fury.io/rb/rack-vendor_accept_header.svg)](https://badge.fury.io/rb/rack-vendor_accept_header)
 [![Code Climate](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header/badges/gpa.svg)](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header)
 [![Coverage Status](https://coveralls.io/repos/codebreakdown/rack-vendor_accept_header/badge.svg?branch=master&service=github)](https://coveralls.io/github/codebreakdown/rack-vendor_accept_header?branch=master)
+[![Inline docs](http://inch-ci.org/github/codebreakdown/rack-vendor_accept_header.svg?branch=master)](http://inch-ci.org/github/codebreakdown/rack-vendor_accept_header)
 
 # Rack::VendorAcceptHeader
 
