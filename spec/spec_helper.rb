@@ -1,13 +1,8 @@
-require 'codeclimate-test-reporter'
-CodeClimate::TestReporter.start
-SimpleCov.start
-
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'rack/vendor_accept_header'
 
-require 'rack/test'
-
 module RSpecMixin
+  require 'rack/test'
   include Rack::Test::Methods
 end
 
