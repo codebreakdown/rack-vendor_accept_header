@@ -1,5 +1,6 @@
 [![Gem Version](https://badge.fury.io/rb/rack-vendor_accept_header.svg)](https://badge.fury.io/rb/rack-vendor_accept_header)
 [![Code Climate](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header/badges/gpa.svg)](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header)
+[![Test Coverage](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header/badges/coverage.svg)](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header/coverage)
 
 # Rack::VendorAcceptHeader
 
