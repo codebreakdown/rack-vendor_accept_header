@@ -21,11 +21,24 @@ module Rack
     ##
     # Entry point for triggering this middleware layer
     #
-    # This conforms to the rack middleware standard. This method is also
-    # where the business logic exists for parsing out the components of
-    # the vendor HTTP Accept header.
+    # This conforms to the rack middleware standard. This method is
+    # strictly handling duping the rack middleware instance itself and
+    # calling the `_call` method to perform the actual work. This is
+    # done to make this rack middleware thread safe for instance
+    # variable interactions within this rack middleware.
 
     def call(env)
+      dup._call(env)
+    end
+
+    ##
+    # This the workhorse of the middleware
+    #
+    # This method is where the business logic exists for parsing out the
+    # components of the vendor HTTP Accept header and exposing them in
+    # the application layer.
+
+    def _call(env)
       parts = parse_accept_header(env)
       env['vnd_version'] = parts[:version]
       env['vnd_context'] = parts[:context]
