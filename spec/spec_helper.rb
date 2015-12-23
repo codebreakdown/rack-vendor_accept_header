@@ -1,9 +1,12 @@
-require 'simplecov'
-require 'coveralls'
+require "simplecov"
+SimpleCov.start do
+  add_filter "/spec/"
+end
 
-SimpleCov.formatter = Coveralls::SimpleCov::Formatter
-SimpleCov.start
+puts "DREW: #{SimpleCov.root.inspect}"
 
+require "codeclimate-test-reporter"
+CodeClimate::TestReporter.start
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'rack/vendor_accept_header'
 

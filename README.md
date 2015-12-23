@@ -1,6 +1,8 @@
 [![Gem Version](https://badge.fury.io/rb/rack-vendor_accept_header.svg)](https://badge.fury.io/rb/rack-vendor_accept_header)
+[![Build Status](https://travis-ci.org/codebreakdown/rack-vendor_accept_header.svg?branch=master)](https://travis-ci.org/codebreakdown/rack-vendor_accept_header)
+[![Test Coverage](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header/badges/coverage.svg)](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header/coverage)
 [![Code Climate](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header/badges/gpa.svg)](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header)
-[![Coverage Status](https://coveralls.io/repos/codebreakdown/rack-vendor_accept_header/badge.svg?branch=master&service=github)](https://coveralls.io/github/codebreakdown/rack-vendor_accept_header?branch=master)
+[![Issue Count](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header/badges/issue_count.svg)](https://codeclimate.com/github/codebreakdown/rack-vendor_accept_header)
 [![Inline docs](http://inch-ci.org/github/codebreakdown/rack-vendor_accept_header.svg?branch=master)](http://inch-ci.org/github/codebreakdown/rack-vendor_accept_header)
 
 # Rack::VendorAcceptHeader
