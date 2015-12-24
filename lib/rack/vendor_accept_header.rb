@@ -6,7 +6,7 @@ module Rack
   # This class is Rack middleware that handles parsing vendor HTTP
   # Accept headers
   class VendorAcceptHeader
-    VND_ACCEPT_REGEX = /application\/vnd\.(\w+)\.v(\d+(?:\.\d+)*)\+(\w+)/
+    VND_ACCEPT_REGEX = %r{application\/vnd\.(\w+)\.v(\d+(?:\.\d+)*)\+(\w+)}
 
     ##
     # Construct an instance of the Rack::VendorAcceptHeader middleware
