@@ -48,7 +48,8 @@ module Rack
     private
 
     def parse_accept_header(env)
-      if match = env['HTTP_ACCEPT'].match(VND_ACCEPT_REGEX)
+      match = env['HTTP_ACCEPT'].match(VND_ACCEPT_REGEX)
+      if match
         context, version, sub_type = match.captures
         return { type: 'application', context: context, version:
                  version, sub_type: sub_type }
