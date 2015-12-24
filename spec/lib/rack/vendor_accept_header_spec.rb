@@ -4,7 +4,7 @@ describe 'Rack::VendorAcceptHeader' do
   let!(:app) do
     @app = Rack::Builder.new do
       use Rack::VendorAcceptHeader
-      run lambda { |env| [200, {}, []] }
+      run ->(_env) { [200, {}, []] }
     end
   end
 
